@@ -1,0 +1,132 @@
+header {
+  font-size: 50px;
+  line-height: 2;
+  font-family: 'Indie Flower', cursive;
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+h1 {
+  color: #112D4E;
+  /*font-family: 'Indie Flower', cursive;*/
+  font-size: 25px;
+  text-align:center;
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+h2 {
+  color: #3F72AF;
+  /*font-family: Times, serif;*/
+  font-size: 24px;
+  text-align:center;
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+h3 {
+  color: black;
+  /*font-family: Times, serif;*/
+  font-size: 22px;
+  text-align:center;
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+h4 {
+  color: black;
+  /*font-family: Times, serif;*/
+  font-size: 21px;
+}
+
+body {
+  color: rgb(10, 10, 10);
+  background-color: #F9F7F7;
+  font-family: 'Indie Flower', cursive;;
+  color: blue;
+  font-size: 10px;
+  line-height: 1.6;
+  /*text-align: center*/
+}
+
+p {
+  font-size: 16px;
+  color: black;
+}
+
+u {
+  font-size: 16px;
+  color: black;
+}
+
+table {
+  font-size: 16px;
+  color: black;
+  text-align: left;
+}
+
+a {
+  color: blue;
+  text-decoration: none;
+  font-size: 10px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  width: 500px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+    /*text-align:center;*/
+}
+
+.img {
+  width: 200px;
+  margin: 0 auto;
+  border-radius: 4px;
+  text-align:center;
+}
+
+#passphoto {
+  display: block;
+  margin: 0 auto;
+/*  text-align: center;*/
+}
+
+.img2 {
+  width: 200px;
+  margin: 0 auto;
+  text-align:center;
+  border-radius: 50px;
+}
+
+.container .card .list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+  text-align: center;
+}
+
+.container .card .list-inline {
+  padding-left: 0px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+#text_center {
+  text-align: center;
+}
+
+/*.icon-format {
+  font-size: 16px;
+}*/
+
+.fa-facebook:before {
+    content: "\f09a";
+}
